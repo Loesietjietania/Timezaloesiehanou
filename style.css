@@ -260,9 +260,47 @@ hr{
 
 .label-2 { font-size: var(--fontSize-label-2); }
 
+/*-----------------------------------*\
+  #ONLINE DOT
+\*-----------------------------------*/
 
 
 
+.selling-fast {
+justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+.online-dot {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #2ecc71;
+  box-shadow: 0 0 6px #2ecc71, 0 0 12px rgba(46, 204, 113, 0.8);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 6px #2ecc71;
+  }
+  50% {
+    box-shadow: 0 0 12px #2ecc71, 0 0 20px rgba(46, 204, 113, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 6px #2ecc71;
+  }
+}
+
+.highlight {
+  color: #b52117;
+  margin-right: 4px;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
